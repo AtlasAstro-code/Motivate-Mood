@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+            android:id="@+id/buttonQuotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="go2quote"
+            android:text="Quotes" />
+            <Button
+                android:id="@+id/buttonHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="go2help"
+                android:text="Help" />
+            <Button
+                android:id="@+id/buttonSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="go2settings"
+                android:text="Settings" />
+            <Button
+                android:id="@+id/buttonTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="testNotification"
+                android:text="Test" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Actions"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/action_name"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Action" />
+
+        <Button
+            android:id="@+id/add_action"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Add Action" />
+
+
+        <Button
+            android:id="@+id/delete_actions"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Delete all Actions" />
+
+        <ListView
+            android:id="@+id/actions_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+        <!--<EditText
+            android:id="@+id/student_name"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Student name" />
+
+        <Spinner
+            android:id="@+id/faculties_spinner"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/add_student"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Add Student" />
+
+
+        <Button
+            android:id="@+id/delete_engineers"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Delete all engineering students" />-->
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

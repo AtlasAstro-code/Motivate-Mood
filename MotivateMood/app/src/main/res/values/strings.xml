@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Motivate Mood</string>
+    <string name="HelpText">
+        "Welcome to Mood Motivator."
+
+        "This app works on the basic principles that with an outside push or reminder your mood can boost"
+
+        "In the main area you can create actions to do at a random interval to help keep you on your toes. "
+        "The second area allows you to add some quotes to pop up for a boost in mood."
+
+        "In the preferences section you will be able to change the intervals of time that the notifications will appear."
+        "You can change the action and quotes independently."
+    </string>
+</resources>
